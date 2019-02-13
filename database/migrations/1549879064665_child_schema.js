@@ -12,7 +12,7 @@ class ChildSchema extends Schema {
       table.string('nama',255)
       table.text('alamat')
       table.integer('pendidikan')
-      table.string('cita-cita',255)
+      table.string('cita_cita',255)
       table.date('tanggal_lahir')
       table.string('notelp',255)
       table.integer('jenis_kelamin')

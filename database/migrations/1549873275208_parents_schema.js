@@ -12,7 +12,6 @@ class ParentsSchema extends Schema {
       table.text('alamat')
       table.integer('jenis_kelamin')
       table.string('info_dari',255)
-      table.date('tanggal_bergabung')
       table.timestamps()
     })
   }

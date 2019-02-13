@@ -4,6 +4,12 @@
 const Model = use('Model')
 
 class Child extends Model {
+    parent(){
+        return this.belongsTo('App/Models/Parent')
+    }
+    user(){
+        return this.belongsTo('App/Models/User')
+    }
 }
 
 module.exports = Child
